@@ -1,0 +1,16 @@
+{
+  "name": "leadscope",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI B2B company and people search plus an autonomous outbound agent. Functional rebuild of the Explee feature set.",
+  "main": "server/index.js",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node server/index.js",
+    "seed": "node server/seed.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0"
+  }
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leadscope · AI company and people search</title>
+  <meta name="description" content="Describe your ideal customer in plain English. Get ranked companies, decision makers and verified emails, then let the AutoGTM agent run outbound for you.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='14' cy='14' r='9' fill='none' stroke='%234f46e5' stroke-width='4'/><path d='M21 21l7 7' stroke='%234f46e5' stroke-width='4' stroke-linecap='round'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/"><span class="logo"></span>Leadscope</a>
+    <nav class="nav">
+      <a href="#/" data-nav="search">Companies</a>
+      <a href="#/people" data-nav="people">People</a>
+      <a href="#/lookalike" data-nav="lookalike">Lookalike</a>
+      <a href="#/autogtm" data-nav="autogtm">AutoGTM</a>
+      <a href="#/lists" data-nav="lists">Lists</a>
+      <a href="#/history" data-nav="history">History</a>
+    </nav>
+    <div class="account" id="account"></div>
+  </header>
+  <main id="app"></main>
+  <aside class="drawer" id="drawer" aria-hidden="true"><div class="drawer-body" id="drawer-body"></div></aside>
+  <div class="modal-backdrop" id="modal" hidden><div class="modal" id="modal-body" role="dialog" aria-modal="true"></div></div>
+  <div class="toast" id="toast" hidden></div>
+  <script src="/app.js"></script>
+</body>
+</html>
